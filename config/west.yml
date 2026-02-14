@@ -17,7 +17,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3
+      revision: main
       import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: badjeff
@@ -36,6 +36,6 @@ manifest:
 #      revision: main
     - name: zmk-dongle-screen
       remote: janpfischer
-      revision: v0.3
+      revision: main
   self:
     path: config
