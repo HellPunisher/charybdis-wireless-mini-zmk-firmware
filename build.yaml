@@ -19,12 +19,12 @@
 ---
 include:
   # QWERTY BT
-  - board: nrfmicro_13
+  - board: nrfmicro/nrf52840
     shield: charybdis_left
     keymap: qwerty
     format: bt
     artifact-name: charybdis_qwerty_left
-  - board: nrfmicro_13
+  - board: nrfmicro/nrf528403
     shield: charybdis_right
     keymap: qwerty
     format: bt
@@ -46,22 +46,22 @@ include:
 #
 
   # QWERTY Dongle
-  - board: nrfmicro_13
+  - board: nrfmicro/nrf52840
     shield: charybdis_left
     keymap: qwerty
     format: dongle
     artifact-name: charybdis_qwerty_dongle_left
-  - board: nrfmicro_13
+  - board: nrfmicro/nrf52840
     shield: charybdis_right
     keymap: qwerty
     format: dongle
     artifact-name: charybdis_qwerty_dongle_right
-  - board: nrfmicro_13
+  - board: nrfmicro/nrf52840
     shield: charybdis_dongle
     keymap: qwerty
     format: dongle
     artifact-name: charybdis_qwerty_dongle
-  - board: nrfmicro_13
+  - board: nrfmicro/nrf52840
     shield: charybdis_dongle_prospector prospector_adapter
     keymap: qwerty
     format: dongle
@@ -72,7 +72,7 @@ include:
 #    keymap: qwerty
 #    format: dongle
 #    artifact-name: charybdis_qwerty_dongle_display
-  - board: nrfmicro_13
+  - board: nrfmicro/nrf52840
     keymap: qwerty
     format: dongle
     shield: charybdis_dongle dongle_screen
